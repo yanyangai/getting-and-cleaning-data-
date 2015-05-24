@@ -1,8 +1,8 @@
 ## Download data 
 if (!file.exists("UCI HAR Dataset/")){
   message("Downloading data")
-  download.file("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip", "getdata-projectfiles-UCI HAR Dataset.zip"),
-  unzip("getdata-projectfiles-UCI HAR Dataset.zip"))
+  download.file("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip", "getdata-projectfiles-UCI HAR Dataset.zip")
+  unzip("getdata-projectfiles-UCI HAR Dataset.zip")
 }
 
 ## Read test set data
